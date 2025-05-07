@@ -20,7 +20,7 @@ app.use((req, res, next) => {
 app.get('/', (req, res) => {
   res.set('Content-Type', 'text/plain');
   res.send('Hello <strong>World!</strong>')
-})
+})  
 
 app.get('/demo2.html', (req, res) => {
     res.set('Content-Type', 'text/plain');

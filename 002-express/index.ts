@@ -15,6 +15,7 @@ app.use((req, res, next) => {
 })
 
 app.get('/', (req, res) => {
+
   res.set('Content-Type', 'text/html');
   res.send('Hello <strong>World!</strong>')
 })
